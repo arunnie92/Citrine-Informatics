@@ -15,7 +15,8 @@ A readme for the Citrine Informatics Scientific Software Engineer  challenge pro
   AFTER: Chemical_formula, Property_1_name, Property_1_value, Property_2_name, Property_2_value
   
 - The default port that Spark uses is '4567'.
-	- To test on a CLI: curl localhost:4567/citrine-informatics/getAllData
+	- Example test on a CLI: curl localhost:4567/citrine-informatics/getAllData
+	
 
 - Each HTTP endpoint either returns a JSON array, which can be empty, or a boolean with an appropriate response type and HTTP status code.
   
@@ -30,6 +31,8 @@ A readme for the Citrine Informatics Scientific Software Engineer  challenge pro
 	"Property_2_value" : "value"
     }
 ```
+	- To test these endpoints, I used a chrome extension called Postman, which allows you to not only HTTP Endpoints, but you can also send over example data for each respected HTTP verb. To do so you choose the verb with the corrrect endpoint, then click on body, click on raw and change the type to JSON (application/json),, and type out the JSON data. If you have a different way of testing then this shouldn't be an issue this is just how I tested.
+	
 - All the source code is located in the 'src/main/java' folder, and the Main.java file in the 'spark' package runs the entire project.
 
 ### Thoughts to extend the challenge
