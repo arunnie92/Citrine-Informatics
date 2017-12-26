@@ -25,6 +25,8 @@ A readme for the Citrine Informatics Scientific Software Engineer  challenge pro
 	"Property_2_value" : "value"
     }
 ```
+- Each HTTP endpoint either returns a JSON array (can be empty) or a boolean with a response type and HTTP status code.
+
 - All the source code is located in the 'src/main/java' folder, and the Main.java file in the 'spark' package runs the entire project.
 
 ### Thoughts to extend the challenge
