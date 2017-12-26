@@ -2,7 +2,7 @@
 Citrine Informatics Challenge Project
 
 ###
-A readme for the Citrine informatics Scientifici Software Engineer challenge project. below are some notes to keep in mind when working with this project:
+A readme for the Citrine Informatics Scientific Software Engineer  challenge project. below are some notes to keep in mind when working with this project:
 
 - This is a Maven project so it needs to be imported as an 'Existing Maven Project'. The pom.xml file is included int the project.
 
