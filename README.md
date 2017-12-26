@@ -14,7 +14,7 @@ A readme for the Citrine Informatics Scientific Software Engineer  challenge pro
   before: Chemical formula, Property 1 name, Property 1 value, Property 2 name, Property 2 value
   AFTER: Chemical_formula, Property_1_name, Property_1_value, Property_2_name, Property_2_value
   
-- The two posts and delete HTTP endpoints I've created take in a JSON object for request.body() that look similiar like so (the values can be different as this is just a template):
+- The two posts and delete HTTP endpoints I've created take in a JSON object for request.body() that should look similiar like so (the values can be different as this is just a template):
 
 ```
     {
