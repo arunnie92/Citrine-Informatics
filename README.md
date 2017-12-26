@@ -16,6 +16,7 @@ A readme for the Citrine informatics Scientifici Software Engineer challenge pro
   
 - The two posts and delete HTTP endpoints I've created take in a JSON object for request.body() that look similiar like so (the values can be different as this is just a template):
 
+'''JSON
     {
 	"Chemical_formula": "value",
 	"Property_1_name" : "value",
@@ -23,7 +24,7 @@ A readme for the Citrine informatics Scientifici Software Engineer challenge pro
 	"Property_2_name" : "value",
 	"Property_2_value" : "value"
     }
-
+'''
 - All the source code is located in the 'src/main/java' folder, and the Main.java file in the 'spark' package runs the entire project.
 
 ### Thoughts to extend the challenge
