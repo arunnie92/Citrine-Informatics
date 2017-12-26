@@ -26,8 +26,9 @@ A readme for the Citrine informatics Scientifici Software Engineer challenge pro
 
 - All the source code is located in the 'src/main/java' folder, and the Main.java file in the 'spark' package runs the entire project.
 
+### Thoughts to extend the challenge
 
-
+Creating HTTP endpoints are favoritue specialty of mine, and I had an idea that could extend the project. I created this API using a MySQL database and creating this API, with HTTP endpoints in Java. One way to extend this is to create an HTTP edpoint that allows a user to submit a big chunk of data through their own csv file to the database. To create this we would first need an endpoint that takes in a csv file then we would create a method in the MySQLDatabase class that reads in a csv file. We would first make sure that the file submitted be the user is a csv file. Then we would check the csv file's first line matches our fields in the database or if it doesn't have  the fields in the first line and then read each line by line to check if there's a chemical formula, property 1 name, property 1 value, property 2 name, and property 2 value. If this is correct we would insert that line into the database. We would essetnially keeping to the end of the file; however, we must also watch for some possible errors, such as, there is more data on one line, not enough data on one line, or if the data doesn't match the field type. With more time this would definitely be something to look into and create.
 
 ###
-Should you need any clarification please do not hestitate to contect me!
+I've created this API hopefully with enough information that any Software Engineer could build more from this or make eny edits with ease. Overall this was extremely enjoyable and should you need any clarification please do not hestitate to contact me!
