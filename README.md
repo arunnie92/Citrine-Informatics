@@ -14,6 +14,11 @@ A readme for the Citrine Informatics Scientific Software Engineer  challenge pro
   before: Chemical formula, Property 1 name, Property 1 value, Property 2 name, Property 2 value
   AFTER: Chemical_formula, Property_1_name, Property_1_value, Property_2_name, Property_2_value
   
+- The default port that Spark uses is '4567'.
+	- To test on a CLI: curl localhost:4567/citrine-informatics/getAllData
+
+- Each HTTP endpoint either returns a JSON array, which can be empty, or a boolean with an appropriate response type and HTTP status code.
+  
 - The two posts and delete HTTP endpoints I've created take in a JSON object for request.body() that should look similiar like so (the values can be different as this is just a template):
 
 ```
@@ -25,8 +30,6 @@ A readme for the Citrine Informatics Scientific Software Engineer  challenge pro
 	"Property_2_value" : "value"
     }
 ```
-- Each HTTP endpoint either returns a JSON array, which can be empty, or a boolean with an appropriate response type and HTTP status code.
-
 - All the source code is located in the 'src/main/java' folder, and the Main.java file in the 'spark' package runs the entire project.
 
 ### Thoughts to extend the challenge
