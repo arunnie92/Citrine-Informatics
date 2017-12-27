@@ -9,7 +9,7 @@ A readme for the Citrine Informatics Scientific Software Engineer  challenge pro
 - I use a MySQL java driver to connect to a MySQL Database so the driver must be added to the build path.
 
 - In the MySQLDatabase Class, username, password & connectionURL fields are set to my MYSQL database on my laptop, so to test on your machine those fields must to be changed to your machine preference. 
-	- The data imported into the Database uses a database called 'citrineinformatics' and the table that uses the imported table is called 'data'. (This may have to be changed your use on your machine)
+	- The data imported into the Database uses a database called 'citrineinformatics' and the table that uses the imported table is called 'data'. (This may have to be changed for your use on your machine)
 
 - I've changed the first line of the csv file that was originally given for this project:
   before: Chemical formula, Property 1 name, Property 1 value, Property 2 name, Property 2 value
